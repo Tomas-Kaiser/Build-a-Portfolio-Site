@@ -1,0 +1,95 @@
+body {
+   margin: auto;
+   max-width: 800px;
+}
+
+header {
+   border-bottom: 5px solid gray;
+   margin-bottom: 5px;
+   text-align: right;
+}
+
+h2 {
+   text-align: center;
+   margin-top: 40px;
+   font-size: 2em;
+   color: #000078;
+   text-shadow: 1px 1px 7px #000070;
+}
+
+figure{
+   margin: 0px 0px;
+}
+
+img{
+   width: 100%;
+}
+
+footer {
+   border-top: 2px solid black;
+   text-align: center;
+   width: 300px;
+   margin: auto;
+   margin-top: 10px;
+}
+
+#logo {
+   float: left;
+   max-height: 60px;
+   max-width: 60px;
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.box {
+margin: auto;
+}
+
+.pixel {
+margin-top: 35px;
+}
+
+.container2 {
+   display: flex;
+   flex-wrap: wrap;
+   width: 450px;
+   margin: auto;
+}
+
+.a_gitHub {
+   text-decoration: none;
+}
+
+.a_gitHub:hover {
+   color: #000078;
+   text-shadow: 1px 1px 7px #000070;
+}
+
+.footer_icons {
+   margin-top: 10px;
+   max-width: 30px;
+}
+
+.footer_icons:hover {
+   box-shadow: 1px 1px 7px #000070;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+   body {
+      margin: 0px 15px;
+   }
+}
+
+@media screen and (max-width: 751px) {
+   .animal_card {
+      order: 1;
+   }
+
+   .container2 {
+      order: 0;
+   }
+}
